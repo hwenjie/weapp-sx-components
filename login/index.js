@@ -4,7 +4,7 @@ Component({
         helper.instanc = this;
     },
     data: {
-        showLogin: helper.showLogin
+        showLogin: false
     },
     methods: {
         show(){
