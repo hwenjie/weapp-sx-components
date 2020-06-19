@@ -1,0 +1,80 @@
+.sx_components_login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s;
+}
+.sx_components_login>view{
+    width: 544rpx;
+    height: 592rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 8rpx 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+.sx_components_login>view .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.sx_components_login>view .title{
+    font-size: 16px;
+    color: #4A4A4A;
+    margin: 48rpx 0 24rpx
+}
+.sx_components_login>view .tip{
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 26rpx;
+}
+.sx_components_login>view .icon{
+    width: 196rpx;
+    height: 196rpx;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(219,95,95,1);
+    font-size: 49px;
+}
+
+.sx_components_login>view .btn-cont{
+    display: flex;
+    margin-bottom: 56rpx;
+}
+.sx_components_login>view .btn-cont button{
+    font-size: 14px;
+    width:216rpx;
+    height:72rpx;
+    border-radius:36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sx_components_login>view .btn-cont button:active{
+    position: relative;
+    top: 2px
+}
+.sx_components_login>view .btn-cont .cancel{
+    border:1px solid rgba(153,153,153,1);
+    color: #4A4A4A;
+    margin-right: 30rpx;
+}
+.sx_components_login>view .btn-cont .confirm{
+    color: #fff;
+    border:1px solid rgba(219,95,95,1);
+    background:rgba(219,95,95,1);
+    box-shadow:0px 4rpx 8rpx 0px rgba(255,72,0,0.5);
+}
